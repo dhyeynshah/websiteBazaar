@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+WebsiteBazaar
 
-## Getting Started
+Instant professional websites for small grocers through CSV upload - featuring aisle maps, inventory dashboards, and stock alerts to help local stores compete with major chains.
+Market Research
 
-First, run the development server:
+I'm currently conducting audience surveys by going door-to-door near local grocery stores to better understand their digital needs. My preliminary findings indicate that our platform would:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Significantly improve customer experience
+2. Streamline employee training processes
+3. Reduce time spent on inventory management
+4. Enhance store visibility in local search results
+5. Create more engaging digital touchpoints with customers
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Roadmap
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+My development plan includes integration with popular POS systems to enable automatic inventory updates, eliminating the need for manual CSV uploads after initial setup.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+P.S. Currently, my supabase is connected to this so please keep in mind that it may repeat products or overlap with yours if you try to use it. It's not a glitch, I'm trying to figure out how to create custom storage integration.
